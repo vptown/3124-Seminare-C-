@@ -7,7 +7,8 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите число 2:");
 int numberB = Convert.ToInt32(Console.ReadLine());
-
+// int mod = numberA % numberB
+//if (mod == o)
 if(numberA % numberB == 0)
 {
     Console.WriteLine($"Число {numberA} и число {numberB} кратны");
