@@ -11,6 +11,8 @@ int ReadNumber(string message)
 }
 
 int SumNumbersFrom1ToA(int a)
+
+
 {
     if (a >= 1) //если А больше либо равно 1, то работаем дальше
     {
