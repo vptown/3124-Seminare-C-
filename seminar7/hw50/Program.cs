@@ -20,6 +20,10 @@ if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
 {
     Console.WriteLine("такого элемента нет");
 }
+else if( n < 0 || m < 0) 
+{
+    Console.WriteLine("недопустимое значение");
+}
 else
 {
     Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n-1,m-1]}");
