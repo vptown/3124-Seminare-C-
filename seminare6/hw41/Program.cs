@@ -2,6 +2,7 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3int ReadNumber(string message)
 Console.WriteLine("Введите число: ");
+Console.WriteLine("Чтобы остановить цикл введите: stop ");
 int count = 0;
 while (true)
 {
