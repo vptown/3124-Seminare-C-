@@ -10,7 +10,6 @@ Fillmatrix(matrix3D);
 PrintMatrix(matrix3D);
 
 
-// Функция вывода индекса элементов 3D массива
 void PrintMatrix(int[,,] matrix)
 {
     for (int i = 0; i < matrix3D.GetLength(0); i++)
@@ -26,7 +25,7 @@ void PrintMatrix(int[,,] matrix)
     }
 }
 
-// Функция заполнения 3D массива не повторяющимеся числами
+
 void Fillmatrix(int[,,] matrix)
 {
     int count = 10;
