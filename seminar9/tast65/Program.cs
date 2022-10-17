@@ -10,7 +10,7 @@ int ReadNumber(string message)
 
 void Print1toN (int m, int n)
 {
-    if(n <= m)
+    if(n < m)
     {
         return;
     }
@@ -19,7 +19,8 @@ void Print1toN (int m, int n)
         Print1toN(m, n - 1);
         Console.Write(n + " ");
     }
-    if(m <= n)
+
+    if(m < n)
     {
         return;
     }
