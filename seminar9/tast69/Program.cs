@@ -14,11 +14,15 @@ int PowAtoB(int a, int b)
     {
         return 1;
     }
+    // else
+    // {
+    //     a *= PowAtoB(a, -- b  ); //b - 1
+    //     //b--;
+    //     return a;
+    // }
     else
     {
-        a *= PowAtoB(a, -- b  ); //b - 1
-        //b--;
-        return a;
+        return a * PowAtoB(a, b - 1);
     }
 }
 
