@@ -7,6 +7,7 @@
 
 // Console.Write("Введите число N: ");
 // int n = Convert.ToInt32(Console.ReadLine());
+//
 
 int ReadNumber(string message)
 {
@@ -38,4 +39,4 @@ void AkkermanFunction(int m, int n)
 int m = ReadNumber( "Введите M");
 int n = ReadNumber( "Введите N");
 Console.WriteLine();
-AkkermanFunction(m,n);
+AkkermanFunction(m,n); 
